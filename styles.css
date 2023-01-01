@@ -887,6 +887,15 @@ input,
 }
 
 @media (max-width: 450px) {
+  .home {
+    height: 60vh;
+  }
+  .about {
+    height: 60vh;
+  }
+  .skills {
+    height: 60vh;
+  }
   .left-column h1 {
     font-size: 20px;
   }
