@@ -25,7 +25,8 @@ html {
 body {
   width: 100vw;
   font-family: "Poppins", sans-serif;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
+  overflow: hidden;
 }
 
 .container {
