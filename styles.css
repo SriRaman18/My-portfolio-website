@@ -924,15 +924,15 @@ input,
   }
 
   .image-front {
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     z-index: -1;
     margin-right: 20px;
   }
 
   .image-svg img {
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
   }
   .work {
     min-height: 60vh;
