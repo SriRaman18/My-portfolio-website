@@ -897,7 +897,7 @@ input,
 
 @media (max-width: 450px) {
   .home {
-    min-height: 60vh;
+    min-height: 40vh;
   }
   .about {
     min-height: 40vh;
