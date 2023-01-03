@@ -927,7 +927,7 @@ input,
     width: 150px;
     height: 150px;
     z-index: -1;
-    /* margin-right: 660px; */
+    margin-right: 20px;
   }
 
   .image-svg img {
