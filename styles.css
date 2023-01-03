@@ -922,12 +922,13 @@ input,
   }
 
   .image-front {
-    width: 200px;
+    width: 150px;
     height: 150px;
+    margin-left: -30px;
   }
 
   .image-svg img {
-    width: 200px;
+    width: 150px;
     height: 150px;
   }
   .work {
