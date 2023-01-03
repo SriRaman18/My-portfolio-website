@@ -59,12 +59,21 @@ window.addEventListener("scroll", scrollactive);
 
 // console.log(document.querySelectorAll(".a-link"));
 
-const scriptURL = "https://script.google.com/macros/s/AKfycbwgYcHoav9npxRQR4mNDxKLaS98S0yxIcZ1SCRmt6_ZOeSGlWsiDbcbFUrjajtGZ4zfzw/exec";
+const scriptURL =
+  "https://script.google.com/macros/s/AKfycbwgYcHoav9npxRQR4mNDxKLaS98S0yxIcZ1SCRmt6_ZOeSGlWsiDbcbFUrjajtGZ4zfzw/exec";
 const form = document.forms["submit-to-google-sheet"];
+
+const msg = document.getElementById("msg");
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
   fetch(scriptURL, { method: "POST", body: new FormData(form) })
-    .then((response) => console.log("Success!", response))
+    .then((response) => {
+      msg.innerHTML = "message sent successfully";
+      setTimeout(() => {
+        msg.innerHTML = "";
+      }, 5000);
+      form.reset();
+    })
     .catch((error) => console.error("Error!", error.message));
 });

@@ -727,6 +727,15 @@ input,
   transition-delay: 800ms;
 }
 
+/* .submit-btn {
+  transition: all 0.2s ease;
+}
+
+.submit-btn:hover {
+  transform: scale(0.8);
+  background-color: red;
+} */
+
 @media (max-width: 1200px) {
   .nav {
     padding: 0 20px;
@@ -891,10 +900,10 @@ input,
     min-height: 60vh;
   }
   .about {
-    min-height: 60vh;
+    min-height: 40vh;
   }
   .skills {
-    min-height: 60vh;
+    min-height: 40vh;
   }
   .left-column h1 {
     font-size: 20px;
