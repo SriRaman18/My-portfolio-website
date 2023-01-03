@@ -58,3 +58,13 @@ function scrollactive() {
 window.addEventListener("scroll", scrollactive);
 
 // console.log(document.querySelectorAll(".a-link"));
+
+const scriptURL = "https://script.google.com/macros/s/AKfycbwgYcHoav9npxRQR4mNDxKLaS98S0yxIcZ1SCRmt6_ZOeSGlWsiDbcbFUrjajtGZ4zfzw/exec";
+const form = document.forms["submit-to-google-sheet"];
+
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  fetch(scriptURL, { method: "POST", body: new FormData(form) })
+    .then((response) => console.log("Success!", response))
+    .catch((error) => console.error("Error!", error.message));
+});
