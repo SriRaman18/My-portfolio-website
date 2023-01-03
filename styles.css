@@ -900,10 +900,12 @@ input,
 
 @media (max-width: 450px) {
   .home {
-    min-height: 70vh;
+    min-height: 40vh;
+    margin-top: 10vh;
   }
   .about {
     min-height: 30vh;
+    margin-top: -10vh;
   }
 
   .info-div .text {
@@ -911,6 +913,7 @@ input,
   }
   .skills {
     min-height: 40vh;
+    margin-top: -5vh;
   }
   .left-column h1 {
     font-size: 20px;
