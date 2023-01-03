@@ -900,7 +900,7 @@ input,
 
 @media (max-width: 450px) {
   .home {
-    min-height: 60vh;
+    min-height: 70vh;
   }
   .about {
     min-height: 30vh;
@@ -924,15 +924,15 @@ input,
   }
 
   .image-front {
-    width: 120px;
-    height: 120px;
+    width: 200px;
+    height: 200px;
     z-index: -1;
-    margin-right: 20px;
+    /* margin-right: 20px; */
   }
 
-  .image-svg img {
-    width: 120px;
-    height: 120px;
+  .image-front img {
+    width: 200px;
+    height: 200px;
   }
   .work {
     min-height: 60vh;
