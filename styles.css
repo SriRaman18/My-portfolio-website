@@ -922,14 +922,14 @@ input,
   }
 
   .image-front {
-    width: 150px;
-    height: 150px;
-    margin-left: -30px;
+    width: 50px;
+    height: 50px;
+    /* margin-right: 660px; */
   }
 
   .image-svg img {
-    width: 150px;
-    height: 150px;
+    width: 50px;
+    height: 50px;
   }
   .work {
     min-height: 60vh;
